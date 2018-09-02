@@ -1,0 +1,12 @@
+<div class="container" *ngIf="stickerList">
+  <div class="row top-buffer" *ngFor="let stickerRow of getStickerRows()">
+    <div class="col-2" *ngFor="let stickerCol of stickerRow">
+      <div class="card text-center" style="width: 10rem;">
+        <img class="card-img-top" src={{stickerCol.url}} alt="Card image cap">
+        <div class="card-body">
+          {{stickerCol.keyword}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
