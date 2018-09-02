@@ -49,5 +49,6 @@
   "engines": {
     "node": "10.9.0",
     "npm": "6.4.0"
-  }
+  },
+  "postinstall": "ng build --aot --prod"
 }
