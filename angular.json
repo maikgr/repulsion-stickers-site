@@ -50,6 +50,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+            "host": "https://repulsion-stickers-site.herokuapp.com/",
             "browserTarget": "sticker-site:build"
           },
           "configurations": {
